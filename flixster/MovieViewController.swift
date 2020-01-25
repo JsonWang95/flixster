@@ -67,7 +67,7 @@ class MovieViewController: UIViewController, UITableViewDataSource, UITableViewD
         let posterURL = URL(string: baseUrl + posterPath)
         
         cell.posterView.af_setImage(withURL: posterURL!)
-        
+        //need ti commit
         return cell
     }
 
