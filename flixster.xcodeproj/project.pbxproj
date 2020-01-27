@@ -12,7 +12,6 @@
 		472CBBC823DA822300976B83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 472CBBC623DA822300976B83 /* Main.storyboard */; };
 		472CBBCA23DA822F00976B83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 472CBBC923DA822F00976B83 /* Assets.xcassets */; };
 		472CBBCD23DA822F00976B83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 472CBBCB23DA822F00976B83 /* LaunchScreen.storyboard */; };
-		472CBBD623DA845F00976B83 /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472CBBD423DA845F00976B83 /* MovieViewController.swift */; };
 		472CBBD723DA845F00976B83 /* MovieViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 472CBBD523DA845F00976B83 /* MovieViewController.xib */; };
 		472CBBD923DA933D00976B83 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472CBBD823DA933D00976B83 /* MovieCell.swift */; };
 		472CBBDB23DBDD1800976B83 /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472CBBDA23DBDD1700976B83 /* MovieViewController.swift */; };
@@ -27,7 +26,6 @@
 		472CBBC923DA822F00976B83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		472CBBCC23DA822F00976B83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		472CBBCE23DA822F00976B83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		472CBBD423DA845F00976B83 /* MovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
 		472CBBD523DA845F00976B83 /* MovieViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieViewController.xib; sourceTree = "<group>"; };
 		472CBBD823DA933D00976B83 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		472CBBDA23DBDD1700976B83 /* MovieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MovieViewController.swift; path = ../../MovieViewController.swift; sourceTree = "<group>"; };
@@ -75,7 +73,6 @@
 				472CBBC923DA822F00976B83 /* Assets.xcassets */,
 				472CBBCB23DA822F00976B83 /* LaunchScreen.storyboard */,
 				472CBBCE23DA822F00976B83 /* Info.plist */,
-				472CBBD423DA845F00976B83 /* MovieViewController.swift */,
 				472CBBDA23DBDD1700976B83 /* MovieViewController.swift */,
 				472CBBD523DA845F00976B83 /* MovieViewController.xib */,
 				472CBBD823DA933D00976B83 /* MovieCell.swift */,
@@ -220,7 +217,6 @@
 				472CBBDB23DBDD1800976B83 /* MovieViewController.swift in Sources */,
 				472CBBC323DA822300976B83 /* SceneDelegate.swift in Sources */,
 				472CBBD923DA933D00976B83 /* MovieCell.swift in Sources */,
-				472CBBD623DA845F00976B83 /* MovieViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,6 +362,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 36CMYRDAJ4;
 				INFOPLIST_FILE = flixster/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -384,6 +381,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 36CMYRDAJ4;
 				INFOPLIST_FILE = flixster/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
