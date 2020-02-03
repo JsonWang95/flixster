@@ -1,5 +1,3 @@
-📝 `NOTE` Paste this template at the top of your existing `README.md` file from part 1 of this assignment. (🚫 Remove this paragraph after after checking off completed user stories)
-
 ## Flix Part 2
 
 ### User Stories
@@ -17,7 +15,7 @@
 <img src="http://g.recordit.co/4rGMzfJeCb.gif" width=250><br>
 
 ### Notes
-Describe any challenges encountered while building the app.
+I didn't get the correct layout for the grid collection view part, but after going through the disccusion forum, I was able to fix it.
 
 
 # Flix
